@@ -4,7 +4,7 @@ def initialize(knowledge = [])
   @knowledge = knowledge
 end
 
-def learn
-  @knowledge << Teacher.KNOWLEDGE.sample
+def learn(facts)
+  @knowledge << facts
 end
 end
