@@ -7,4 +7,8 @@ end
 def learn(facts)
   @knowledge << facts
 end
+
+def knowledge
+  @knowledge
+end
 end
